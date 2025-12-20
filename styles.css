@@ -52,7 +52,7 @@ h1 {
         cursor: pointer;
     }
 
-    button: active {
+    button active {
 transform: translateY(1px);
     }
     
@@ -264,7 +264,7 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-    border; 2px solid #7342d65d;
+    border:lab(from color lightness channel_a channel_b alpha) solid #7342d65d;
     color: #7342d6;
     width: 100px;
     height: 100px;
